@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<title>Document</title>
+	<link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" type="text/css" href="css/swiper-3.4.2.min.css" />
+	<link rel="stylesheet" href="css/base.css">
+	<script type="text/javascript">
+    var scaler;
+    (function (doc, win) {        
+     var docEle = doc.documentElement,
+          resizeEvent = 'orientationchange' in window ? 'orientationchange' : 'resize';
+            var recalCulate = function () {
+                var width = docEle.clientWidth;
+                docEle.style.fontSize = 100 * (width / 750) + 'px';
+                scaler = 100 * (width / 750);
+            };
+    
+            recalCulate();
+    
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvent, recalCulate, false);
+        })(document, window);
+    </script>
+</head>
+<body>
+
+     <div id="box">
+        <ul id="mylist">
+            <li class="active" style="border-right: 0;">诊所介绍</li>
+            <li style="border-right: 0;">医生团队</li>
+            <li>会员套餐</li>
+            <div id="mvlist"><span></span></div>
+        </ul>
+    </div>
+   <div class="footer">电话预约</div>
+      <div id="block">
+        <div class="swiper-container">
+        <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/topbanner.png" /></div>
+        <div class="swiper-slide"><img src="img/topbanner.png" /></div>
+        <div class="swiper-slide"><img src="img/topbanner.png" /></div>
+      </div>
+    </div>
+        <div class="title">知贝儿科VIP挂号服务</div>
+          <div class="content">
+              <div class="content_title">诊所介绍</div>
+              <p class="p1">知贝儿科诊所是一家专注于儿童健康领域，为儿童提供现代循证医学（EBM）服务的专业医疗机构，拥有多位经验丰富、医术精湛的全职医生坐诊，服务范围涵盖了保健科、内科、皮肤科、耳鼻喉科等高需求科室。我们致力于把可靠的医疗服务，最佳的就医体验提供给家长和儿童，让就医成为一件温暖的小事。</p>
+              <p class="p2">知贝的服务</p>
+              <p class="p3"><span>门诊服务：</span>儿童保健、新生儿专科、儿童呼吸专科、儿童心血管专科、儿童内分泌专科、儿童免疫专科、儿童肾脏专科、儿童神经专科、儿童耳鼻喉科、皮肤科</p>
+              <p class="p4">广州市番禺区奥园城市天地9区15-20号
+              <br>（近维也纳公寓）</p>
+              <div class="image"><img src="img/map.png" alt=""></div>
+          </div>           
+           <div class="content">
+               <div class="content_title">医生团队</div>
+               <ul class="list">
+                 <li>
+                    <img src="img/doctor1.png">
+                    <div class="jieshao">
+                       <p class=""><span class="name">欧茜</span>   <span class="job">儿内科医生 从医12年</span></p>
+                       <p class="ill"> 
+                            <span>咳嗽</span>
+                            <span>发烧</span>
+                             <span>腹泻</span>
+                            <span>养育</span>
+                              <span>黄痘</span
+                      </p>
+                      <div class="arrow"></div>
+                  </div>
+                </li>
+             <li>
+                    <img src="img/doctor2.png">
+                    <div class="jieshao">
+                       <p class=""><span class="name">刘欣</span>   <span class="job">皮肤科医生 从医17年</span></p>
+                       <p class="ill"> 
+                            <span>银屑病</span>
+                            <span>&nbsp;&nbsp;胎记&nbsp;&nbsp;</span>
+                            <span>湿疹</span>
+                            <span>荨麻疹</span>
+                            <span>白癜风</span>
+                            <span>血管瘤</span>
+                      </p>
+                       <div class="arrow"></div>
+                  </div>
+                </li>
+                 <li>
+                    <img src="img/doctor1.png">
+                    <div class="jieshao">
+                       <p class=""><span class="name">肖彦</span>   <span class="job">儿内科医生 从医18年</span></p>
+                       <p class="ill"> 
+                            <span>&nbsp;&nbsp;发烧&nbsp;&nbsp;</span>
+                              <span>喂养</span>
+                                <span>黄痘</span>
+                               <span>川崎病</span>
+                               <span>咳嗽</span>
+                              <span style="margin-right: 0;">先天性心脏病</span>
+                      </p>
+                       <div class="arrow"></div>
+                  </div>
+                </li>
+                 <li>
+                    <img src="img/doctor4.png">
+                    <div class="jieshao">
+                       <p class=""><span class="name">王洁</span>   <span class="job">耳鼻喉科医师 从医18年</span></p>
+                       <p class="ill"> 
+                            <span>鼻炎</span>
+                            <span>鼻窦炎</span>
+                            <span>中耳炎</span>
+                            <span>&nbsp;过敏性鼻炎&nbsp;</span>
+                            <span style="margin-right: 0;">呼吸道异物</span>
+                      </p>
+                       <div class="arrow"></div>
+                  </div>
+                </li>
+                 <li>
+                    <img src="img/doctor5.png">
+                    <div class="jieshao">
+                       <p class=""><span class="name">胡艳</span>   <span class="job">儿内科医生 从医12年</span></p>
+                       <p class="ill"> 
+                          <span>腹泻</span>
+                          <span>便秘</span>
+                          <span>营养不良</span>
+                          <span>&nbsp;新生儿黄疸&nbsp;</span>
+                          <span style="margin-right: 0;">支气管肺炎</span>
+                      </p>
+                       <div class="arrow"></div>
+                  </div>
+                </li>
+            </ul>
+           </div>
+           <div class="content">
+              <div class="content_title">会员套餐</div>
+              <div class="vip1">
+              <p class="sun"><img src="img/vip1.png"></p>
+              <p class="p3"><span class="n">就诊优惠：</span>门诊挂号7折，治疗费7折，检验费7折，线上
+服务7折</p>
+               <p class="p3"><span class="n">家庭医生服务：</span>专属宝宝管家服务pearl care，建立宝宝健康档案，建立宝宝病例方案终身保存和查询，医生小助手微信群管理服务</p>
+                <p class="p3"><span class="n">会员尊享：</span>知名三甲医疗机构绿色转诊服务1次，会员健
+康讲座，会员俱乐部定期活动，专家名家微课堂</p>
+</div>
+<div class="vip1">
+              <p class="sun"><img src="img/vip2.png"></p>
+              <p class="p3"><span class="n">就诊优惠：</span>门诊挂号8折，治疗费8折，检验费8折，线上
+服务7折</p>
+               <p class="p3"><span class="n">家庭医生服务：</span>专属宝宝管家服务，建立宝宝健康档案，建立宝宝病例方案终身保存和查询，医生小助手微信群管理服务</p>
+                <p class="p3"><span class="n">就诊优惠：</span>知名三甲医疗机构绿色转诊服务1次，会员健
+康讲座，会员俱乐部定期活动，专家名家微课堂</p>
+</div>
+<div class="vip1">
+              <p class="sun"><img src="img/vip3.png"></p>
+              <p class="p3"><span class="n">就诊优惠：</span>门诊挂号7折，治疗费7折，检验费7折，线上
+服务7折</p>
+               <p class="p3"><span class="n">家庭医生服务：</span>门诊挂号9折，治疗费9折，检验费9折，线上
+服务9折</p>
+</div>
+           </div>
+           <div class="content">
+             <div class="content_title">常见问题</div>
+             <div class="question">
+               <p class="q1">Q:怎么预约?</p>
+               <p class="q2">A：拨打知贝儿科客服电话，提供您需要预约的时间以及家长姓名和宝宝姓名即可。</p>
+             </div>
+             <div class="question">
+               <p class="q1">Q：临时有事来不了怎么办？</p>
+               <p class="q2">A：拨打知贝儿科客服电话，告知客服取消预约/另约时间即可。</p>
+             </div>
+             <div class="question" style="margin-bottom:50px;">
+               <p class="q1">Q：附近有停车场吗？</p>
+               <p class="q2" >A：有的，奥园城市天地的停车位很充足，家长们不用担心找不到停车位。</p>
+             </div>
+           </div>
+         
+  </div>
+  <script src="js/swiper-3.4.2.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/js.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/lk.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

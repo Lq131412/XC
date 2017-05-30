@@ -1,0 +1,175 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 40rem;
+}
+#box{
+	width: 100%;
+	display:none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 5;
+}
+.active{
+	color: #00b1bb; 
+}
+#mylist{
+	width: 100%;
+	overflow: hidden;
+	background: #fff;
+}
+#mylist li{
+	float: left;
+	list-style: none;
+	height: 1.42rem;
+	line-height: 1.42rem;
+	border: 1px solid #ccc;
+	text-align: center;
+	width:33.333333%;
+	box-sizing:border-box;
+	font-size:0.4rem;	
+}
+.swiper-container {
+	width: 100%;
+	height: 3.2rem;
+	position: relative;
+}
+
+.swiper-wrapper {
+	text-align: center;
+	line-height: 3.2rem;
+}
+
+.swiper-slide img {
+	width: 100%;
+	height: 3.2rem;
+}
+.title{
+	font-size: 0.4rem;
+    font-weight: bold;
+    padding-left: 0.5rem;
+    line-height: 1.1rem;
+    border:0.02rem solid #ccc;
+}
+.content_title{
+	background: #00b1bb;
+	margin:0.3rem;
+	width:1.96rem;
+	height:0.72rem;
+	line-height: 0.72rem;
+	text-align: center;
+	font-size: 0.4rem;
+	color: #fff;
+}
+.p1{
+	margin:0.3rem;
+	font-size: 0.28rem;
+}
+.p2{
+	margin-left: 0.3rem;
+	font-size: 0.28rem;
+}
+.p3{
+	margin-left: 0.3rem;
+	font-size: 0.28rem;
+}
+.p4{
+	margin:0.3rem;
+	font-weight: bold;
+	font-size: 0.28rem;
+}
+.image img{
+	width: 100%;
+	height: 100%;
+}
+.list li{
+	position: relative;
+    border-bottom:0.02rem solid gray;
+    padding-bottom: 0.28rem;
+    overflow: hidden;
+    margin: 0.46rem auto 0;
+}
+.list li img{
+    position: absolute;
+    width: 1.38rem;
+    height: 1.38rem;
+    left: 0.46rem;
+    top: 0;
+}
+.jieshao{
+	padding-left:2.5rem;
+	width:58%;
+}
+.name{
+	font-size: 0.4rem;
+    font-weight: bold;
+    color: #00b1bb;
+}
+.job{
+	font-size: 0.28rem;
+}
+.ill{
+    overflow: hidden;
+}
+.ill span{
+	float: left;
+    font-size: 0.24rem;
+    padding: 0 0.12rem;
+    height: 0.28rem;
+    line-height: 0.28rem;
+    text-align: center;
+    background: #f0f0f0;
+    margin-right: 0.4rem;
+    margin-bottom: 0.12rem;
+}
+.vip1{
+	margin-top:0.6rem;
+}
+.vip1 p{
+	margin-left: 0.3rem;
+}
+.arrow{
+	    position: absolute;
+    right: 0.4rem;
+    top: 0.64rem;
+    background: url(../img/arrow.png) 0 0 no-repeat;
+    background-size: cover;
+    width: 0.2rem;
+    height: 0.38rem;
+}
+.sun img{
+	width: 4.2rem;
+    height: 0.54rem;
+}
+.question{
+	margin: 0.3rem;
+}
+.question p{
+	font-size: 0.28rem
+}
+.n{
+
+    font-weight: bold;
+    color: #00b1bb;
+}
+.q1{
+	color:#00b1bb;
+}
+.footer{
+	position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 0.48rem;
+    font-weight: bold;
+    background: #00b1bb;
+    z-index: 2;
+
+}
